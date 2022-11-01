@@ -1,0 +1,79 @@
+.mainLoginDiv {
+    width: 100vw;
+    height: 100vh;
+    background-image: url('../../../img/701802.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 5vh 0 0 0;
+}
+
+.mainLoginDiv * {
+    font-family: 'Poppins', sans-serif;
+    /* font-family: 'Montserrat Alternates', sans-serif; */
+}
+
+.loginCenterDiv {
+    width: 40vw;
+    padding: 2vh;
+    /* height: 60vh; */
+    border-radius: 1vh;
+    background-color: rgba(255, 255, 255, 0.2);
+    box-shadow: 0 0 10vh 0.1vh #00000044;
+    backdrop-filter: blur(10px);
+}
+
+.loginCenterDiv h1 {
+    text-align: center;
+    font-size: 5vh;
+    height: 10vh;
+    font-weight: 200;
+    letter-spacing: 1px;
+}
+
+.loginCenterDiv form {
+    display: flex;
+    flex-flow: column;
+    padding: 2vh;
+    /* border: 2px solid black; */
+}
+
+.loginCenterDiv form label {
+    font-size: 25px;
+    margin: 0 0 0 0.5vh;
+}
+
+.loginCenterDiv form input {
+    margin: 1vh 0 2vh 0;
+    height: 5vh;
+    background: none;
+    border: 1px solid black;
+    padding: 0 0 0 1vw;
+    font-size: 1.05em;
+    /* border-bottom: 2px solid black; */
+    border-radius: 2.5vh;
+    letter-spacing: 0.5px;
+}
+
+.loginCenterDiv form h3 {
+    text-align: center;
+    font-weight: 300;
+}
+
+.button {
+    /* border: 2px solid black; */
+    height: 5vh;
+    border-radius: 2.5vh;
+    font-size: 1.2em;
+    font-weight: 500;
+    cursor: pointer;
+}
+.loginButton{
+    background: #061f35;
+    color: #add0ec;
+}
+.regButton{
+    background: rgba(255, 255, 255, 0.308);
+    backdrop-filter: blur(10px);
+    /* border: 1px solid black; */
+}
